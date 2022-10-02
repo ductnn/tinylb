@@ -44,7 +44,7 @@ Then, usage:
 2022/10/03 00:15:12 Health check completed
 ```
 
-Checking on [localhost:4000](localhost:4000)
+Checking on [localhost:4000](http://localhost:4000)
 
 Flag:
 ```sh
