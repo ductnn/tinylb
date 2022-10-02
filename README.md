@@ -1,5 +1,7 @@
 # TinyLB
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/ductnn/tinylb)](https://goreportcard.com/report/github.com/ductnn/tinylb)
+
 **TinyLB** is a simple Load Balancer written in Go. Inspired by [simplelb](https://github.com/kasvith/simplelb)
 - Use `RoundRobin` algorithm to send requests into set of backends and support retries too.
 - `Healthcheck` to recovery for unhealthy servers in every 1 min.
@@ -42,7 +44,7 @@ Then, usage:
 2022/10/03 00:15:12 Health check completed
 ```
 
-Checking on [localhost:4000]
+Checking on [localhost:4000](localhost:4000)
 
 Flag:
 ```sh
