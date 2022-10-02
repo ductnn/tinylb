@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  tinylb:
+    build: .
+    container_name: load-balancer
+    ports:
+      - "4000:4000"
+    command: --backends "http://web1:80,http://web2:80,http://web3:80"
+  web1:
+    image: strm/helloworld-http
+  web2:
+    image: strm/helloworld-http
+  web3:
+    image: strm/helloworld-http
